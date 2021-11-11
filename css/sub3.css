@@ -1,0 +1,245 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+    background-color: #fff;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+    text-shadow: 0 0 0 treansparent;
+}
+
+div.bg_img{
+    background-image: url(../images/main_visu.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35vw;
+    margin: 0 auto;
+    position: relative;
+}
+div.bgtxt{
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+    text-align: right;
+}
+div.bgtxt p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+div.bgtxt h2{
+    font-family: 'Marcellus';
+    font-size: 38px;
+    font-weight: 700;
+}
+div.bgimg{
+    position: absolute;
+    bottom: 9%;
+    right: 10%;
+    text-align: right;
+}
+div.bgimg>img{
+    width: 80%;
+}
+div.princess_charm01{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1080px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+div.princess_charm01 p{
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+div.princess_charm01>img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    width: calc(100% / 12 * 5.8);
+}
+div.princess_charm02{
+    display: flex;
+    margin: 0 auto;
+    margin-top: -220px;
+    width: 80%;
+    max-width: 1080px;
+
+    justify-content: space-between;
+}
+div.princess_charm02 p{
+    margin: auto 0 20px 30px;
+    width: 100%;
+    font-size: 16px;
+
+}
+div.princess_charm02>img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    width: calc(100% / 12 * 5.8);
+}
+section.cnt02{
+    margin-top: 150px;
+}
+div.video{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1080px;
+    text-align: center;
+}
+div.video iframe{
+    width: 100%;
+    height: 610px;
+}
+div.cnt03_img{
+    width: 80%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+div.cnt03_img>img{
+    width: calc(100% / 12 * 7.8);
+}
+div.images{
+    width: calc(100% / 12 * 4);
+    position: relative;
+}
+div.images>img{
+    width:100%;
+    height: 48%;
+    border: 3px solid #faece6;
+}
+div.images>img:nth-child(1){
+    position: absolute;
+    top: 0;
+}
+div.images>img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+}
+section.cnt03 p{
+    text-align: right;
+    width: 80%;
+    max-width: 1080px;
+    margin: 30px auto;
+    font-size: 16px;
+    line-height: 26px;
+}
+section.charm_menu{
+    margin-top: 150px;
+    padding: 120px 0;
+    background: linear-gradient(to bottom, #f8f6f0, #f1e6ea);
+    width: 100%;
+}
+.list{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.list li{
+    text-align: center;
+}
+.list li>div{
+    overflow: hidden;
+    border: 3px solid #faece6;
+    width: 90%;
+    height: 80%;
+}
+.list li img{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: no-drop;
+}
+.list li img:hover{
+    transform: scale(1.2);
+}
+section.charm_menu div.list_box .list li p{
+    margin-top: 30px;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    width: 90%;
+}
+div.viewbtn p{
+    width: 30%;
+    text-align: center;
+    margin: 100px auto;
+    padding: 15px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    cursor: no-drop;
+}
+/* 탑버튼 */
+div.top_btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 99999;
+}
+.top{
+    width: 100%;
+}
+@media screen and (max-width:1220px) {
+    div.bgtxt{
+        bottom: 55%;
+    }
+    div.bgtxt p{
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    div.bgtxt h2{
+        font-size: 30px;
+    }
+    div.bgimg>img{
+        width: 65%;
+    }
+    div.princess_charm01{
+        margin-top: 100px;
+    }
+    div.princess_charm01 p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    div.princess_charm02 p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    section.cnt02{
+        margin-top: 100px;
+    }
+    div.video iframe{
+        height: 550px;
+    }
+    section.cnt03 p{
+        font-size: 14px;
+    }
+    div.cnt03_img{
+        margin-top: 100px;
+    }
+    section.charm_menu{
+        margin-top: 100px;
+    }
+    .list li>div{
+        height: 68%;
+    }
+    div.viewbtn p{
+        margin: 80px auto;
+    }
+}
